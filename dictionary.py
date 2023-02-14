@@ -1,6 +1,7 @@
 ## Словари - Dictionary
 
 #Задание 1
+from rich import print
 dict = {'city': 'Москва', 'temperature': '20'}
 print(dict['city'])
 dict['temperature'] = str(int(dict['temperature'])-5)
