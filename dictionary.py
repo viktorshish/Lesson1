@@ -2,12 +2,12 @@
 
 #Задание 1
 from rich import print
-dict = {'city': 'Москва', 'temperature': '20'}
-print(dict['city'])
-dict['temperature'] = str(int(dict['temperature'])-5)
-print(dict)
+weather = {'city': 'Москва', 'temperature': '20'}
+print(weather['city'])
+weather['temperature'] = str(int(weather['temperature'])-5)
+print(weather)
 
 #Задание 2
-print(dict.get('country', 'Россия'))
-dict['date'] = '27.05.2019'
-print(len(dict))
+print(weather.get('country', 'Россия'))
+weather['date'] = '27.05.2019'
+print(len(weather))
