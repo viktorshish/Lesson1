@@ -1,10 +1,23 @@
 ## Списки
 
-lists=[3,5,7,9,10.5]
+numbers=[3,5,7,9,10.5]
 
-print(lists)
+print(numbers)
 
-lists.append('Python')
+numbers.append('Python')
 
-print(lists)
-print(len(lists))
+print(numbers)
+print(len(numbers))
+
+# Выведите на экран начальный элемент списка
+print(numbers[0])
+
+# Выведите на экран последний элемент списка
+print(numbers[-1])
+
+# Напечатайте элементы списка со второго по четвертый включительно
+print(numbers[2:5])
+
+#Удалите из списка строку "Python"
+numbers.remove('Python')
+print(numbers)
